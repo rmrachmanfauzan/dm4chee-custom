@@ -60,7 +60,8 @@ body{
 	}
 	.logo{
 		background: transparent;
-		background-image: url("/resources/img/logo.png"), url("../img/logo.png");
+		background-image: url("../img/logo.png");
+		// background-image: url("/resources/img/logo.png"), url("../img/logo.png");
 		background-repeat: no-repeat;
 	    height: 42px;
 	    margin-left: 10px;

@@ -8,3 +8,7 @@ node/
 node_modules/
 bower_components/
 .vscode/
+ldap-data/
+slapd.d/
+storage/
+db-data/
