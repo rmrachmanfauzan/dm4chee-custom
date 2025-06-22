@@ -85,3 +85,6 @@ down:
 # Clean build artifacts
 clean:
 	rm -rf dcm4chee-arc-*/target
+
+ohif:
+	docker run -d -p 3000:80 -v ./ohif-config/app-config.js:/usr/share/nginx/html/app-config.js --name ohif-viewer-container ohif/app:v3.9.2
